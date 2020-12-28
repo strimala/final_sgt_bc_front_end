@@ -11,7 +11,7 @@ const Breadcrumbs = props => {
     return (
         <MUIBreadcrumbs aria-label="breadcrumb">
             {pathnames.length > 0 ? (
-                <Link onClick={() => history.push("/")}>Galvenā</Link>
+                <Link onClick={() => history.push("/")} style={{ color: '#007bff' }}>Galvenā</Link>
             ) : (
                     <Typography> Galvenā </Typography>
                 )}
@@ -32,7 +32,7 @@ const Breadcrumbs = props => {
                 return isLast ? (
                     <Typography key={name}>{name}</Typography>
                 ) : (
-                        <Link key={name} onClick={() => history.push(routeTo)}>
+                        <Link key={name} onClick={() => history.push(routeTo)} style={{ color: '#007bff' }}>
                             {name}
                         </Link>
                     );

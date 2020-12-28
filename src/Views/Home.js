@@ -5,7 +5,7 @@ import FirstCarouselImg from '../Assets/Images/olivier_salad_1.jpg';
 import SecondCarouselImg from '../Assets/Images/olivier_salad_2.jpg';
 import ThirdCarouselImg from '../Assets/Images/olivier_salad_3.jpg';
 import SecondArticleImg from '../Assets/Images/result.jpg';
-
+import ThirdArticleImg from '../Assets/Images/agdams2.jpg';
 
 function Home() {
     return (
@@ -45,7 +45,7 @@ function Home() {
                 </Col>
                 <Col md={12} lg={4}>
                     <CardItem
-                        img_src={ThirdCarouselImg}
+                        img_src={ThirdArticleImg}
                         title='PAPILDINĀJUMS RASOLAM'
                         text='Augstvērtīgu dzērienu piedāvājums.'
                         path='/articles/article3'

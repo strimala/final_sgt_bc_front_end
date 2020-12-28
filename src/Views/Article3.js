@@ -1,13 +1,10 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import Breadcrumbs from '../Components/Breadcrumb';
 import ImageGallery from '../Components/ImageGallery';
-import MainImage from '../Assets/Images/result.jpg';
-import FirstSmallImage from '../Assets/Images/potato_carrot.jpg';
-import SecondSmallImage from '../Assets/Images/sausage.jpg';
-import ThirdSmallImage from '../Assets/Images/onion.jpg';
-import FourthSmallImage from '../Assets/Images/boiled_eggs.jpg';
-import FifthSmallImage from '../Assets/Images/green_peas.jpg';
-import SixthSmallImage from '../Assets/Images/ingredients.jpg';
+import MainImage from '../Assets/Images/agdams.jpg';
+import FirstSmallImage from '../Assets/Images/agdams2.jpg';
+import SecondSmallImage from '../Assets/Images/agdams3.jpg';
+import ThirdSmallImage from '../Assets/Images/agdams4.png';
 
 function Article() {
     return (
@@ -26,19 +23,13 @@ function Article() {
                 <Col md={6}>
                     <ImageGallery
                         main_img={MainImage}
-                        main_img_alt='Rasols'
+                        main_img_alt='Agdams'
                         first_sm_img={FirstSmallImage}
-                        first_sm_img_alt='Vārīti kartupeļi un burkāni'
+                        first_sm_img_alt='Agdams'
                         second_sm_img={SecondSmallImage}
-                        second_sm_img_alt='Desa'
+                        second_sm_img_alt='Agdams'
                         third_sm_img={ThirdSmallImage}
-                        third_sm_img_alt='Sīpols'
-                        fourth_sm_img={FourthSmallImage}
-                        fourth_sm_img_alt='Vārītas olas'
-                        fifth_sm_img={FifthSmallImage}
-                        fifth_sm_img_alt='Konservēti zaļie zirnīši'
-                        sixth_sm_img={SixthSmallImage}
-                        sixth_sm_img_alt='Rasola sastāvdaļas'
+                        third_sm_img_alt='Agdams'
                     />
                 </Col>
                 <Col md={6}>
