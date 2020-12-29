@@ -10,9 +10,9 @@ function Registration() {
                     <Breadcrumbs />
                 </Col>
             </Row>
-            <Row>
+            <Row className="my-3">
                 <Col>
-                    <h1 className="mb-3">Reģistrācijas forma</h1>
+                    <h1>Reģistrācijas forma</h1>
                 </Col>
             </Row>
             <Row>

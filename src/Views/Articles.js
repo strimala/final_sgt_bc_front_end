@@ -47,7 +47,7 @@ function Articles() {
                     />
                 </Col>
             </Row>
-            <Row className="float-right my-3" >
+            <Row className="my-3" style={{ display: 'flex', justifyContent: 'flex-end' }}>
                 <Col>
                     <Pagination paginate={1} />
                 </Col>

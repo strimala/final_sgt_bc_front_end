@@ -19,7 +19,7 @@ function Article() {
                     <Breadcrumbs />
                 </Col>
             </Row>
-            <Row>
+            <Row className="my-3">
                 <Col>
                     <h1>Rasola recepte</h1>
                 </Col>

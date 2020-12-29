@@ -14,7 +14,7 @@ function Article() {
                     <Breadcrumbs />
                 </Col>
             </Row>
-            <Row>
+            <Row className="my-3">
                 <Col>
                     <h1>Papildinājums rasolam</h1>
                 </Col>

@@ -2,7 +2,7 @@ import { Row, Col } from "react-bootstrap";
 
 function Footer() {
     return (
-        <Row className="mt-3 bg-dark d-flex justify-content-around">
+        <Row className="mt-3 p-3 bg-light d-flex justify-content-center">
             <Col md={3}>
                 <p>Paldies, ka interesējies par rasolu.</p>
             </Col>

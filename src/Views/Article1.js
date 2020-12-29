@@ -13,7 +13,7 @@ function Article() {
                     <Breadcrumbs />
                 </Col>
             </Row>
-            <Row>
+            <Row className="my-3">
                 <Col>
                     <h1>RASOLS vai ROSOLS</h1>
                 </Col>

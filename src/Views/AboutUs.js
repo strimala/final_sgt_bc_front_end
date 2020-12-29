@@ -14,7 +14,7 @@ function AboutUs() {
                     <Breadcrumbs />
                 </Col>
             </Row>
-            <Row className="mb-3">
+            <Row className="my-3">
                 <Col>
                     <h1>Par mums</h1>
                 </Col>
