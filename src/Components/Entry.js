@@ -5,9 +5,9 @@ function Entry({ entry }) {
     const time = moment(timeStamp).format('LLL');
     return (
         <li className="list-group-item">
-            <div>
-                {entry.user_name}
-                <span>{time}</span>
+            <div className="bg-light">
+                {entry.user_name}    |
+                <span className="px-3">{time}</span>
             </div>
             <div>
                 {entry.message}

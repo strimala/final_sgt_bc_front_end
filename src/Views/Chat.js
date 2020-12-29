@@ -11,17 +11,17 @@ function Chat() {
                     <Breadcrumbs />
                 </Col>
             </Row>
-            <Row>
+            <Row className="my-3">
                 <Col>
                     <h1>Viesu grāmata</h1>
                 </Col>
             </Row>
             <Row>
-                <Col>
+                <Col style={{ overflowY: 'scroll', maxHeight: '300px' }}>
                     <Entries />
                 </Col>
             </Row>
-            <Row>
+            <Row className="my-3">
                 <Col>
                     <AddNewEntrieForm />
                 </Col>

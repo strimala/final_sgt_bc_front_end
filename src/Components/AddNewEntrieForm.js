@@ -56,9 +56,9 @@ function AddNewEntrieForm() {
                 <Form.Label>Lietotājvārds</Form.Label>
                 <Form.Control value={user_name} onChange={handleUserNameChange} disabled={loading} type="text" id="user-name" />
             </Form.Group>
-            <Form.Group>
+            <Form.Group >
                 <Form.Label>Ziņa</Form.Label>
-                <Form.Control value={message} onChange={handleMessageChange} disabled={loading} as="textarea" rows={5} id="message" />
+                <Form.Control value={message} onChange={handleMessageChange} disabled={loading} as="textarea" rows={3} id="message" />
             </Form.Group>
             <Form.Group>
                 <Button variant="primary" onClick={addNewEntrie} disabled={loading}>
